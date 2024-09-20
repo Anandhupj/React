@@ -1,0 +1,46 @@
+body{
+    background: rgb(214, 212, 212);
+    text-align: center;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 0, 0,0.2);
+    padding: 10px 20px;
+    transition: transform 0.5s;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: blueviolet;
+}
+label{
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px rgb(153, 131, 131);
+    border-radius: 12px;
+    
+}
+input[type="radio"]{
+    display: inline;
+    width: 10%;
+}
